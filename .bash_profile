@@ -1,5 +1,13 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
+export PATH="$HOME/bin:$PATH:$HOME/.rvm/bin";
+MYSQL=/usr/local/mysql/bin
+export PATH=$PATH:$MYSQL
+export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
+
+export CLICOLOR=true
+export LSCOLORS=Exfxcxdxbxegedabagacad
+
+[[ -s "/Users/guilarducci/.rvm/scripts/rvm" ]] && source "/Users/guilarducci/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
