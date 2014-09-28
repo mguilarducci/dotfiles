@@ -1,3 +1,6 @@
+# activate virtual env
+alias sba="source bin/activate && . ~/.bash_prompt"
+
 # django manage
 alias manage='python $VIRTUAL_ENV/manage.py'
 
