@@ -1,3 +1,6 @@
+# nvm
+source ~/.nvm/nvm.sh
+
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH:$HOME/.rvm/bin";
 MYSQL=/usr/local/mysql/bin

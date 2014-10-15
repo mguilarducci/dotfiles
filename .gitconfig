@@ -57,8 +57,11 @@
 	# List contributors with number of commits
 	contributors = shortlog --summary --numbered
 
-	# discard 
+	# discard all
 	da = checkout -- .
+
+	# commit
+	ci = commit
 
 [apply]
 
