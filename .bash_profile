@@ -1,5 +1,3 @@
-source ~/.aws
-
 # nvm
 source ~/.nvm/nvm.sh
 
